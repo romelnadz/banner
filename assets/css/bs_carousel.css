@@ -79,9 +79,10 @@
 
 
 .carousel-indicators .active {
-  background-color: #BF1901 !important;
+  /* background-color: #BF1901 !important; */
+  background-color: #fff !important;
   width: 80px !important;
-  height: 20px !important;
+  height: 15px !important;
   border-radius: 9999px !important;
   margin: 22px 2px 22px 2px !important;
   border: none !important;
@@ -99,24 +100,74 @@
     margin: 0 !important;
     text-align: center;
     list-style: none;
-    background: linear-gradient(0deg, #3D3D3D 0%, rgba(61, 61, 61, 0.3) 50%, rgba(61, 61, 61, 0) 100%);
+    background: linear-gradient(0deg, #6C6C6C 0%, rgba(51, 51, 51, 0) 100%);    /* background: linear-gradient(0deg, #3D3D3D 0%, rgba(61, 61, 61, 0.3) 50%, rgba(61, 61, 61, 0) 100%); */
   
 }
 
 .carousel-indicators li {
   width: 40px !important;
-  height: 20px !important;
+  height: 15px !important;
   border-radius: 9999px !important;
   list-style: none !important;
   margin: 22px 2px 22px 2px !important;
+  border:none !important;
+  opacity: 70% !important;
 }
 
 
-.banner1
+.banner_img1
 {
   transform: translateY(-320px) !important;
   margin: 0;
 }
+
+
+.banner_text1
+{
+  background-color: #BF1901;
+  height: 320px;
+  /* width: 100%; */
+}
+
+.banner_text2
+{
+  background: linear-gradient(0deg, #8A1100 0%, #BF1901 100%);
+  height: 320px;
+  /* width: 100%; */
+}
+
+
+.banner_text3
+{
+background: linear-gradient(0deg, #A3AEB5 0%, #FFFFFF 56.25%, #FFFFFF 100%);  
+height: 320px;
+  /* width: 100%; */
+}
+
+.banner_text4
+{
+  background: linear-gradient(287.56deg, #000000 0%, #2A3D46 100%);
+  height: 320px;
+}
+
+.banner_text5
+{
+background-color: #FFFFFF;  
+height: 320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .carousel-caption {
